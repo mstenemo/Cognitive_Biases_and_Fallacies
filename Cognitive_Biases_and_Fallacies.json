@@ -1,0 +1,3632 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "0e13fbda-ec3e-11e9-9e85-bc8385d403c0",
+    "deck_config_uuid": "0e13fbdb-ec3e-11e9-ac98-bc8385d403c0",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "0e13fbdb-ec3e-11e9-ac98-bc8385d403c0",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "SlowGraduaton",
+            "new": {
+                "bury": true,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 1300,
+                "ints": [
+                    1,
+                    5
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": true,
+                "ease4": 1,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 0.7699999809265137,
+                "maxIvl": 333,
+                "minSpace": 1,
+                "perDay": 66
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Please see the <a href='https://ankiweb.net/shared/info/970971960'>shared deck page</a> for more info.",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "Cognitive Biases and Fallacies",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }\n.card2 { background-color: #FFFFFF; }",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 12,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Forward",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Reverse",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "name": "Basic-cd014",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0,
+                        2
+                    ]
+                ],
+                [
+                    1,
+                    "all",
+                    [
+                        1,
+                        3
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Forward",
+                    "ord": 0,
+                    "qfmt": "{{#Forward}}\n{{Front}}\n{{/Forward}}"
+                },
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Front}}",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Reverse",
+                    "ord": 1,
+                    "qfmt": "{{#Reverse}}\n{{Back}}\n{{/Reverse}}"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Bandwagon effect ",
+                "the tendency to do (or believe) things because many other people do (or believe) the same. Related to groupthink and herd behaviour.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ueeX<Vd+pX",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Base rate fallacy ",
+                "ignoring available statistical data in favor of particulars.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "b/#@VHT-M+",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Bias blind spot ",
+                "the tendency not to compensate for one's own cognitive biases.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uVktaopAw9",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "memory bias: Choice-supportive bias ",
+                "the tendency to remember one's choices as better than they actually were.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "j6/y&*pOj&",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Confirmation bias ",
+                "the tendency to search for or interpret information in a way that confirms one's preconceptions.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qoqUeOw$_p",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Congruence bias ",
+                "the tendency to test hypotheses exclusively through direct testing, in contrast to tests of possible alternative hypotheses.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "fJT21/?UNf",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Contrast effect ",
+                "the enhancement or diminishing of a weight or other measurement when compared with a recently observed object.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tB7XEpf8o^",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: <i>Déformation professionnelle </i>",
+                "the tendency to look at things according to the conventions of one's own profession, forgetting any broader point of view.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nQ+hk&h(lv",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Denomination effect ",
+                "the tendency to spend more money when it is denominated in small amounts (e.g. coins) than large amounts (e.g. bills).",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "l{3OZ:/4vs",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Distinction bias ",
+                "the tendency to view two options as more dissimilar when evaluating them simultaneously than when evaluating them separately.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "r9C7-rQwl(",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Endowment effect ",
+                "the fact that people often demand much more to give up an object than they would be willing to pay to acquire it.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kf-g89;ZQ}",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Experimenter's or Expectation bias",
+                "the tendency for experimenters to believe, certify, and publish data that agree with their expectations for the outcome of an experiment.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qw2ne(|z1m",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Extraordinarity bias ",
+                "valuing an object more due to an exceptional feature that does not, in itself, change the value.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "iMNdMys,4d",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Focusing effect ",
+                "prediction bias: when too much importance is placed on one aspect of an event",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dmt$qw]D,@",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Hyperbolic discounting ",
+                "People prefer immediate payoffs to delayed payoffs, with increasing tendency the nearer both payoffs are.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "hO:&jx@JHT",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Illusion of control ",
+                "the tendency for human beings to believe they can control or at least influence outcomes that they clearly cannot.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "r4w4UGv{S>",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Impact bias ",
+                "the tendency for people to overestimate the length or the intensity of the impact of future feeling states.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "hJ~QmD2g4F",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Information bias ",
+                "the tendency to seek information even when it cannot affect action.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "t**(DHG-44",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Interloper effect ",
+                "the tendency to value third party consultation as objective, confirming, and without motive.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "o#_H+!3N,g",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Irrational escalation ",
+                "the tendency to make irrational decisions based upon rational decisions in the past or to justify actions already taken.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "c{8DS49|^:",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Just-world phenomenon",
+                "Blaming the victim.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "gJf@<16r,(",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Loss aversion ",
+                "when the disutility of giving up an object is greater than the utility associated with acquiring it.<br>(see also sunk cost effects and Endowment effect).",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "vw|$YNB60V",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Mere exposure effect ",
+                "the tendency for people to express undue liking for things just because they are familiar with them.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "iz%lqj|4`+",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Money illusion ",
+                "the tendency of people to concentrate on the nominal (face value) of money rather than its value in terms of purchasing power.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "l2<|Q&$co=",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Moral credential effect ",
+                "the tendency of a track record of non-prejudice to increase subsequent prejudice.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "vTKpiw3Xn`",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Need for Closure ",
+                "the need to reach a verdict in important matters; to have an answer and to escape the feeling of doubt and uncertainty. The personal context (time or social pressure) might increase this bias.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "c9G,|^ETD8",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Negativity bias ",
+                "phenomenon by which humans pay more attention to and give more weight to negative than positive experiences or other kinds of information.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "i7(e$Z,/?w",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Neglect of probability ",
+                "the tendency to completely disregard probability when making a decision under uncertainty.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qWc&8s(hg?",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Normalcy bias ",
+                "the refusal to plan for, or react to, a disaster which has never happened before.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "s2=^s{|[Q}",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Not Invented Here ",
+                "the tendency to ignore that a product or solution already exists, because its source is seen as an \"enemy\" or as \"inferior\".",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "je:kp7RU_G",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Omission bias ",
+                "the tendency to judge harmful actions as worse, or less moral, than equally harmful omissions (inactions).",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dPR(xa5)-o",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Outcome bias ",
+                "the tendency to judge a decision by its eventual outcome instead of based on the quality of the decision at the time it was made.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "eg)Fv9lj{$",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Planning fallacy ",
+                "the tendency to underestimate task-completion times.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ic-&If}ACa",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Post-purchase rationalization ",
+                "the tendency to persuade oneself through rational argument that a purchase was a good value.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "btV[yQ_WhD",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Pseudocertainty effect ",
+                "risk-averse choices if outcome is positive<br />risk-seeking choices to avoid negative outcomes.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "sU@9$h&KD;",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Reactance ",
+                "the urge to do the opposite of what someone wants you to do out of a need to resist a perceived attempt to constrain your freedom of choice.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "mJciv|<xC/",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Restraint bias&nbsp;&nbsp;&nbsp;",
+                "the tendency to overestimate one's ability to resist temptation.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "3^ba`6}7U",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Selective perception ",
+                "the tendency for expectations to affect perception.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "oTWSXU(%RX",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Semmelweis reflex ",
+                "the tendency to reject new evidence that contradicts an established paradigm.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tV@bRfa+me",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Status quo bias ",
+                "the tendency for people to like things to stay relatively the same.<br />(see also loss aversion, endowment effect, and system justification)",
+                "y",
+                ""
+            ],
+            "flags": 0,
+            "guid": "kMwHP8%0_;",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Von Restorff effect ",
+                "the tendency for an item that \"stands out like a sore thumb\" to be more likely to be remembered than other items.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dU1^>zZ!By",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Wishful thinking ",
+                "the formation of beliefs and the making of decisions according to what is pleasing to imagine instead of by appeal to evidence or rationality.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "bH>YpU*Vm$",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Zero-risk bias ",
+                "preference for reducing a small risk to zero over a greater reduction in a larger risk.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "n5bS$ydz.C",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Ambiguity effect ",
+                "the avoidance of options for which missing information makes the probability seem \"unknown\".",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "f]F/c@]SrW",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Anchoring effect ",
+                "the tendency to rely too heavily on a past reference or on one trait or piece of information when making decisions (also called \"insufficient adjustment\").",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dla8$g>.w6",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Attentional bias ",
+                "neglect of relevant data when making judgments of a correlation or association.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jap{TlT4j9",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Authority bias ",
+                "the tendency to value an ambiguous stimulus (e.g., an art performance) according to the opinion of someone who is seen as an authority on the topic.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "hCGerM:pM$",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Availability cascade ",
+                "\"repeat something long enough and it will become true\"",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uS?(gA{i0W",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Belief bias ",
+                "an effect where someone's evaluation of the logical strength of an argument is biased by the believability of the conclusion.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "p-5v*n!5Gu",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Clustering illusion ",
+                "the tendency to see patterns where actually none exist. (pareidolia)",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "e!Ym00,A?T",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Capability bias ",
+                "The tendency to believe that the closer average performance is to a target, the tighter the distribution of the data set.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "l/%nO)yfoY",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Conjunction fallacy ",
+                "the tendency to assume that specific conditions are more probable than general ones.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qpJ<-gSf5j",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Disposition effect ",
+                "the tendency to sell assets that have increased in value but hold assets that have decreased in value.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "b10}G)j<x/",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Gambler's fallacy ",
+                "the tendency to think that future probabilities are altered by independent past events",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "q?ZM9iljc/",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Hawthorne effect ",
+                "the tendency of people to perform or perceive differently when they know that they are being observed.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "sj?GAh.;3G",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Hindsight bias ",
+                "sometimes called the &quot;I-knew-it-all-along&quot; effect, the inclination to see past events as being predictable.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uqs2}Pw7mR",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Illusory correlation ",
+                "beliefs that inaccurately suppose a relationship between a certain type of action and an effect.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "bt[E5Is4?]",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Ludic fallacy ",
+                "the analysis of chance-related problems according to the belief that the unstructured randomness found in life resembles the structured randomness found in games, ignoring the non-gaussian distribution of many real-world results.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nN/V[{QKci",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Neglect of prior base rates effect ",
+                "the tendency to neglect known odds when reevaluating odds in light of weak evidence.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "k_sM5xOc/3",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Observer-expectancy effect ",
+                "when a researcher expects a given result and unconsciously manipulates an experiment or misinterprets data in order to find it.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "oI)$-c8ua=",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Optimism bias ",
+                "the systematic tendency to be over-optimistic about the outcome of planned actions.",
+                "y",
+                ""
+            ],
+            "flags": 0,
+            "guid": "sI(~x^Dx:<",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Ostrich effect ",
+                "ignoring an obvious (negative) situation.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qy/G)yY*Kp",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Overconfidence effect ",
+                "excessive confidence in one's own answers to questions. For example, for certain types of question, answers that people rate as \"99% certain\" turn out to be wrong 40% of the time.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "b87~Nu&]|8",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Positive outcome bias ",
+                "prediction: overestimating the probability of good things happening.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "g;sww!fBXr",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: <i>Pareidolia </i>",
+                "Interpreting noise as significant",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "np2KT0j|;k",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Primacy effect ",
+                "the tendency to weigh initial events more than subsequent events.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qvf+[Kl]KS",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Recency effect ",
+                "the tendency to weigh recent events more than earlier events.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "d2,3$`v>VC",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Disregard of regression toward the mean ",
+                "the tendency to expect extreme performance to continue.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nn3z_E.L[J",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Selection bias ",
+                "a distortion of evidence or data that arises from the way that the data are collected.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "m;H$;RDp>Z",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Stereotyping ",
+                "expecting a member of a group to have certain characteristics without having actual information about that individual.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "pHRP1u?>E^",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Subadditivity effect ",
+                "the tendency to judge probability of the whole to be less than the probabilities of the parts.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "d8~9?rAyk(",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Subjective validation ",
+                "perception that something is true because a belief demands it to be true,<br>e.g. belief in psychic powers <br>assigning perceived connections between coincidences.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "h3j6aeT`Fj",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Telescoping effect ",
+                "the effect that recent events appear to have occurred more remotely and remote events appear to have occurred more recently.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jV[7AALxJg",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Texas sharpshooter fallacy ",
+                "the fallacy of selecting or adjusting a hypothesis after the data is collected, making it impossible to test the hypothesis fairly.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jc$__@6f{M",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Biases in probability and belief: Well travelled road effect",
+                "underestimation of the duration taken to traverse oft-travelled routes and over-estimate the duration taken to traverse less familiar routes.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ubIVUXqdTz",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Egocentric bias ",
+                "occurs when people claim more responsibility for themselves for the results of a joint action than an outside observer would.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jU&^z4[E2m",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Forer effect (aka Barnum Effect)",
+                "Perceiving vague personality qualifiers as highly accurate",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "bL?:HNnshn",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: False consensus effect ",
+                "the tendency for people to overestimate the degree to which others agree with them.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "r%/K8e%%@7",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Fundamental attribution error ",
+                "The tendency to explain other's behavior dispositionally and ignore situational factors.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "s]?`h8V^Hu",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Halo effect ",
+                "the tendency for a person's positive or negative traits to \"spill over\" from one area of their personality to another in others' perceptions of them (see also physical attractiveness stereotype).",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "bRBq(?n0E:",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Herd instinct ",
+                "Common tendency to adopt the opinions and follow the behaviors of the majority to feel safer and to avoid conflict.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "cVp,*$RHYG",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Illusion of asymmetric insight ",
+                "people perceive their knowledge of their peers to surpass their peers' knowledge of them.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "mqWs~1,>Pq",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Illusion of transparency ",
+                "people overestimate others' ability to know them, and they also overestimate their ability to know others.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "pZ}#)g_JO/",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Illusory superiority ",
+                "overestimating one's desirable qualities, and underestimating undesirable qualities<br>AKA \"Lake Wobegon effect\"",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tcG8~zPe$t",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Ingroup bias ",
+                "the tendency for people to give preferential treatment to others they perceive to be members of their own groups.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "d;gg7?1,sM",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Just-world phenomenon ",
+                "the belief that people \"get what they deserve.\"",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qw/q{o@u{*",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Notational bias ",
+                "a form of cultural bias in which the notational conventions of recording data biases the appearance of that data toward (or away from) the system upon which the notational schema is based.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "k!HxYYsY)U",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Outgroup homogeneity bias ",
+                "individuals see members of their own group as being relatively more varied than members of other groups.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kKnM`E~wH~",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Projection bias ",
+                "the tendency to unconsciously assume that others share the same or similar thoughts, beliefs, values, or positions.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "in*vZPPmK~",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Self-serving bias (also called \"behavioral confirmation effect\") ",
+                "the tendency to claim more responsibility for successes than failures.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tWDpiDvJLY",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Self-fulfilling prophecy ",
+                "the tendency to <i>engage in behaviors</i> that elicit results which will (consciously or not) confirm existing attitudes.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uL?sq>Gg!x",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: System justification",
+                "the tendency to defend and bolster the status quo.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "vEE^O^9@E=",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Social bias: Trait ascription bias ",
+                "the tendency for people to view themselves as relatively variable in terms of personality, behavior and mood while viewing others as much more predictable.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "c98vjv*PrG",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Consistency bias ",
+                "incorrectly remembering one's past attitudes and behaviour as resembling present attitudes and behaviour.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ngh@Wo;3T`",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias:: Cryptomnesia",
+                "where a memory is mistaken for imagination.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "j^wbRA*rRZ",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Egocentric bias ",
+                "recalling the past in a self-serving manner, e.g. remembering one's exam grades as being better than they were, or remembering a caught fish as being bigger than it was",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jTK/KE4^,E",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias:&nbsp;&nbsp;False memory",
+                "confusion of imagination with memory, or the dismissal of true memories.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jc7{AQ]T/o",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Hindsight bias ",
+                "filtering memory of past events through present knowledge, so that those events look more predictable than they actually were.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nAkF#}G4V=",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Reminiscence bump ",
+                "the effect that people tend to recall more personal events from adolescence and early adulthood than from other lifetime periods.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uDJ;][lgp;",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Rosy retrospection ",
+                "the tendency to rate past events more positively than they had actually rated them when the event occurred.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "lU0o~!V.`6",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Self-serving bias ",
+                "perceiving oneself responsible for desirable outcomes but not responsible for undesirable ones.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "k1~8Nwb3G_",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Memory bias: Suggestibility",
+                "a form of misattribution where ideas suggested by a questioner are mistaken for memory",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ig?N?6`v18",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "decision-making or behavioral bias: Framing",
+                "Using an approach or description of the situation or issue that is too narrow.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "mx#NOu-0wp",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ultimate attribution error",
+                "a person is likely to make an internal attribution to an entire group instead of the individuals within the group.<br><br>see also: representative heuristic",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jXS[*MV<%-",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "biases"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "contextomy",
+                "name: Quoting someone out of context",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "mf!%p6NU4L",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ad hominem",
+                " an argument that attacks the person who holds a view or advances an argument, rather than commenting on the view or responding to the argument.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": ".F~rtg_71",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to Law",
+                " an argument which implies that legislation is a moral imperative.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "l;&F*4XJnx",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to possibility ",
+                " assumes that because something could happen, it is inevitable that it will happen. <br /><br />eg Murphy's Law",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "sk`U1Yf}Ec",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argument from fallacy",
+                " if an argument for some conclusion is fallacious, then the conclusion is fallacious.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "u0d!^8|nfY",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bare assertion fallacy",
+                " premise in an argument is assumed to be true purely because it says that it is true.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "t;#F1&/&}O",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Base rate fallacy",
+                " using weak evidence to make a probability judgment without taking into account known empirical statistics about the probability.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "pboh7#X&IJ",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Conjunction fallacy",
+                " assumption that an outcome simultaneously satisfying multiple conditions is more probable than an outcome satisfying a single one of them.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ru4#DtT/q)",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Denying the correlative",
+                "Attempting to introduce alternatives where there are none.<br />e.g. All apples are either green or not, but what about apples that are both green and red?",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "smH7*QB3F9",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Suppressed correlative",
+                " where a correlative is redefined so that one alternative is made impossible.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "q9]X~aFwYF",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy of necessity",
+                " a degree of unwarranted inevitability is placed in the conclusion based on the inevitability of its premises.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "iiqmJHl=pP",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "False dilemma (false dichotomy)",
+                " where two alternative statements are held to be the only possible options, when in reality there are more.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "i>_Y`R/Zc%",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "If-by-whiskey",
+                " An argument that supports both sides of an issue by using terms that are selectively emotionally sensitive.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kO1p-(e#x0",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ignoratio elenchi",
+                " An irrelevant conclusion or irrelevant thesis.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uVOUn=[w&B",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Is-ought problem",
+                "because something is one way, it should be.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "e6XK&XAwT",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Homunculus fallacy",
+                "where a &quot;middle-man&quot; is used for explanation, this usually leads to regressive middle-man.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "eDYGpm?U7^",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Masked man fallacy",
+                " the substitution of identical designators in a true statement can lead to a false one.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "fY#i7;gk4",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Naturalistic fallacy",
+                " a fallacy that claims that if something is natural, then it is good or right.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "etFC!D>Qg(",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nirvana fallacy",
+                " when solutions to problems are said not to be right because they are not perfect.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "mO*=/YN<TZ",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Negative proof fallacy",
+                "Claiming that <br />\"No proof against <i>X</i> --&gt; <i>X</i> is true\"<br />or vice versa",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "d.VK8QE/3r",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Package-deal fallacy",
+                " consists of assuming that things often grouped together by tradition or culture must always be grouped that way.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dbe<|QP872",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Red Herring",
+                " also called a \"fallacy of relevance.\" This occurs when the speaker is trying to distract the audience by arguing some new topic, or just generally going off topic with an argument.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jy`p(L~-%A",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Affirming a disjunct",
+                " A or B; A; therefore not B.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "d(Q<alR:?p",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Affirming the consequent",
+                " if A, then B; B, therefore A.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "$qQ^y*3|b",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Denying the antecedent",
+                " if A, then B; not A, therefore not B.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "gThz>tEu,<",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Existential fallacy",
+                " an argument has two universal premises and a particular conclusion, but the premises do not establish the truth of the conclusion, because the subject may not exist.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ta6;u+{~>u",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Proof by example",
+                " inductive proof for a universal proposition. (&quot;This apple is red, therefore all apples are red.&quot;)",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "lXT_mK-X(J",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Quantifier shift",
+                " Everybody has something to believe in. Therefore, there is something that everybody believes in.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "o5_oiU-z_p",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Affirmative conclusion from a negative premise",
+                " No fish are dogs, and no dogs can fly, therefore all fish can fly.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "vP!1;KKRfq",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy of exclusive premises",
+                "a categorical syllogism that is invalid because both of its premises are negative.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "s&Up9}$T#G",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy of four terms",
+                " Nothing is better than eternal happiness, and a ham sandwich is better than nothing, so a ham sandwich is better than eternal happiness.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ezF)C=~SMx",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Illicit major",
+                " a categorical syllogism that is invalid because its major term is undistributed in the major premise but distributed in the conclusion. e.g. All dogs are mammals. No cats are dogs. Therefore, no cats are mammals.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nd9f7|.vqg",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argument from repetition (argumentum ad nauseam)",
+                " signifies that it has been discussed extensibly until nobody cares to discuss it anymore",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "k[@|dkLg@_",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to ridicule",
+                " a specific type of appeal to emotion where an argument is made by presenting the opponent's argument in a way that makes it appear ridiculous",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "f.%>&8L(cF",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argument from ignorance (appeal to ignorance)",
+                "Assuming that something is true/false because it has not been proven false/true. <br><br>e.g. &quot;The student has failed to prove that he didn't cheat on the test, therefore he must have cheated on the test.&quot;",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "s|9#Z*^#[G",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Circular cause and consequence",
+                " where the consequence of the phenomenon is claimed to be its root cause",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tc-sQ3pb}6",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Continuum fallacy (fallacy of the beard)",
+                "claiming that two conditions along a continuum are identical",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ssFwW?.v3v",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "latin for: Correlation does not imply causation",
+                "cum hoc ergo propter hoc",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "b`Xq@T3M6w",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Demanding negative proof",
+                " attempting to avoid the burden of proof for some claim by demanding proof of the contrary from whoever questions that claim",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dL`5eae~7H",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Equivocation (No true Scotsman)",
+                " the misleading use of a term with more than one meaning (by glossing over which meaning is intended at a particular time)",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jAk.LD`]%]",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Etymological fallacy",
+                " which reasons that the original or historical meaning of a word or phrase is necessarily similar to its actual present-day meaning.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "e4*,mM[fzj",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "fallacy of division",
+                " where one reasons logically that something true of a thing must also be true of all or some of its parts",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ioM`[(udi_",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ecological fallacy",
+                " inferences about individuals based solely upon statistics of the group",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kYO|^%oup7",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy of many questions",
+                "Name: Asking loaded questions",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kv311L}7m-",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy of the single cause (\"joint effect\", or \"causal oversimplification\")",
+                "assuming that there is one simple cause of an outcome.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kI+K.,d=O2",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "False attribution",
+                " occurs when an advocate appeals to an irrelevant, unqualified, unidentified, biased or fabricated source in support of an argument",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "r{a#i80XKT",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "False compromise/middle ground",
+                " asserts that a compromise between two positions is correct",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "q:Y1~d^xd/",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gambler's fallacy",
+                " the incorrect belief that the likelihood of a random event can be affected by or predicted from other, independent events",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qqRziI3>K3",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Historian's fallacy",
+                "occurs when one assumes that decision makers of the past viewed events from the same perspective and having the same information as those subsequently analyzing the decision.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uCN~E7FvZ=",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Incomplete comparison",
+                " where not enough information is provided to make a comparison, <br /> e.g. &quot;product x is better than y&quot; instead of &quot;x sells for a lower price than y&quot;.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "gaTjOnXJ6~",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Inconsistent comparison",
+                " where different methods of comparison are used, leaving one with a false impression of the whole comparison",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "i-n7PmP8/3",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Intentional fallacy",
+                "the assumption that the meaning intended by the author of a literary work is of primary importance",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kzq)y`DXhF",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Loki's Wager",
+                " the unreasonable insistence that a concept cannot be defined, and therefore cannot be discussed.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ew.@SypJ~Z",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Moving the goalpost (raising the bar)",
+                " argument in which evidence presented in response to a specific claim is dismissed and some other (often greater) evidence is demanded",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "j]_CXE#nfI",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Perfect solution fallacy",
+                "assuming that a perfect solution exists or rejecting an incomplete solution",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "bRzCHBQBij",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Post hoc ergo propter hoc",
+                " also known as false cause, coincidental correlation or correlation not causation.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "i&z*1T6lqu",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Proof by verbosity",
+                "submission to an argument too complex and verbose to reasonably deal with in all its details. ",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "eRXjkBq!fI",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Prosecutor's fallacy",
+                " a low probability of false matches does not mean a low probability of some false match being found",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "j-=hT/eG[+",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Psychologist's fallacy",
+                " occurs when an observer presupposes the objectivity of his own perspective when analyzing a behavioral event",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "s{[,,^zNcs",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Regression fallacy",
+                "When regression to the mean is mistaken for cause and effect",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "b`8h:ps&M>",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Reification (hypostatization)",
+                " a fallacy of ambiguity, when an idea is treated as a real thing",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dOmB(u!fi3",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Retrospective determinism",
+                "it happened, so it was bound to.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "li8O:a^AMN",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Special pleading",
+                " where a proponent of a position attempts to cite something as an exemption to a generally accepted rule or principle without justifying the exemption",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "E^;4ms~dQ",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Well travelled road effect",
+                " estimates of elapsed time is shorter for familiar routes as compared to unfamiliar routes which are of equal or lesser duration.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "kWBWXh)<_m",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wrong direction fallacy",
+                "where cause and effect are reversed. The cause is said to be the effect and vice versa.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tk[6Ms`b.-",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Accident (fallacy)",
+                " when an exception to the generalization is ignored.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "f%Cc`zg[K&",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "No True Scotsman",
+                " when a generalization is made true only when a counterexample is ruled out on shaky grounds.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uhWWO=C[V%",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cherry picking",
+                " act of pointing at individual cases or data that seem to confirm a particular position, while ignoring a significant portion of related cases or data that may contradict that position",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jQ=LukZFPE",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy: Composition",
+                " where one infers that something is true of the whole from the fact that it is true of some (or even every) part of the whole",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "h)M)F#[-aC",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Converse accident",
+                " when an exception to a generalization is wrongly called for",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "i-,(A#v/i3",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "False analogy",
+                "consists of an error in the substance of an argument (the content of the analogy itself), not an error in the logical structure of the argument",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "q2.QUUZJ$0",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Misleading vividness",
+                " involves describing an occurrence in great detail, even if it is an exceptional occurrence, to convince someone that it is a problem",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "p|&TSSE]v,",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Overwhelming exception",
+                " An accurate generalization with such large exceptions so that it is much less impressive than the initial statement.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "cohoSwCOgw",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pathetic fallacy",
+                " when an inanimate object is declared to have characteristics of animate objects",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "uzIVzAAuf9",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spotlight fallacy",
+                " when a person uncritically assumes that all members or cases of a certain class or type are like those that receive the most attention or coverage in the media",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "fi8M[Qx|2t",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Thought-terminating cliché",
+                "a commonly used phrase, sometimes passing as folk wisdom, used to quell cognitive dissonance. E.g. \"drugs are bad\"",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "k@bfh:,gj?",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argumentum ad baculum (literally \"appeal to the stick\" or \"appeal to force\")",
+                " where an argument is made through coercion or threats of force towards an opposing party",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "u-qvO68|J_",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argumentum ad populum (\"appeal to belief\", \"appeal to the majority\", \"appeal to the people\")",
+                " where a proposition is claimed to be true solely because many people believe it to be true",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "tmtktGk&h,",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Association fallacy",
+                "name: guilt by association",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "rgDeL89iR^",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to authority",
+                " where an assertion is deemed true because of the reputation of the person asserting it",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "voFT:L1$[7",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to consequences",
+                "Judging a premise based on its results",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qgFF@0Aus)",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to emotion",
+                " where an argument is made due to the manipulation of emotions, rather than the use of valid reasoning",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ez0FZF26~P",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to fear",
+                " a specific type of appeal to emotion where an argument is made by increasing fear and prejudice towards the opposing side",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "n/<5iP/pV}",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wishful thinking",
+                " a specific type of appeal to emotion where a decision is made according to what might be pleasing to imagine, rather than according to evidence or reason",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "dN0%dqVITj",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to spite",
+                " a specific type of appeal to emotion where an argument is made through exploiting people's bitterness towards an opposing party",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nQL[Z+a7x6",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to flattery",
+                " a specific type of appeal to emotion where an argument is made due to the use of flattery to gather support",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "jIJ5vYUKZ^",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to motive",
+                "dismissing a premise by calling into question the desires of the proposer",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "oV(J,I@-6W",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to nature",
+                " an *argument* wherein something is deemed correct or good if it is natural, and is deemed incorrect or bad if it is unnatural",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "m8Q>O?r-D",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to novelty",
+                " where a proposal is claimed to be superior or better solely because it is new or modern",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "hJnmIEg`@X",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to poverty (argumentum ad lazarum)",
+                " thinking the conclusion is effected by a party's poor financial situation.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qP`])9oqJR",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to wealth (argumentum ad crumenam)",
+                " concluding that a statement's truth value is affected by a party's financial situation.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "spBiV2BZ=`",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argument from silence (argumentum ex silentio)",
+                " a conclusion based on lack of contrary evidence",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "lM)r9)mh&R",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Appeal to tradition",
+                " where a thesis is deemed correct on the basis that it has a long-standing tradition behind it",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "u-Ecj/DP(>",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chronological snobbery",
+                " where a thesis is deemed incorrect because it was commonly held when something else, clearly false, was also commonly held",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "j4p>@UAP<L",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Genetic fallacy",
+                "Emphasizing someone's origin rather than its current meaning or context. <br /><br />This overlooks any difference to be found in the present situation, typically transferring the positive or negative esteem from the earlier context.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "qZK;<iRMR}",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Judgmental language",
+                " insultive or pejorative language to influence the recipient's judgment",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "ta3B/P9.Ed",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Poisoning the well",
+                " where adverse information about a target is pre-emptively presented to an audience, with the intention of discrediting or ridiculing everything that the target person is about to say",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "r|aX#haSTy",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sentimental fallacy",
+                " it would be more pleasant if; therefore it ought to be; therefore - it is",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "n*__J%Tw;&",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Straw man argument",
+                " based on misrepresentation of an opponent's position",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "nj9$fSN{g(",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Style over substance fallacy",
+                "emphasizing the <b>way </b>in which the argument is <b>presented</b> while marginalizing the <b>content</b> of the argument",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "hiR;#))[Bt",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Two wrongs make a right",
+                " occurs when it is assumed that if one wrong is committed, another wrong will cancel it out",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "i7^52/Ro)E",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tu quoque",
+                " the argument states that a certain position is false or wrong and/or should be disregarded because its proponent fails to act consistently in accordance with that position",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "cBM=Qvyw9e",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Luddite fallacy",
+                " related to the belief that labour-saving technologies increase unemployment by reducing demand for labour",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "vs,EMc|Pdr",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Broken window fallacy",
+                " an argument which disregards hidden costs associated with destroying property of others.",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "hF{Y4D[_e0",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Slippery slope",
+                " argument states that a relatively small first step inevitably leads to a chain of related events culminating in some significant impact",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "f*aBEOV-!f",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fallacy of the undistributed middle",
+                "All students carry backpacks. My grandfather carries a backpack. Therefore, my grandfather is a student.",
+                "",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "e]|O~9%#nY",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies",
+                "logic"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Origin of the phrase \"Semmelweis reflex\"",
+                "A doctor who was outcast because he advocated hand washing in hospitals",
+                "y",
+                "y"
+            ],
+            "flags": 0,
+            "guid": "h](U:PM8#C",
+            "note_model_uuid": "0e1fda9a-ec3e-11e9-a633-bc8385d403c0",
+            "tags": [
+                "fallacies"
+            ]
+        }
+    ]
+}
